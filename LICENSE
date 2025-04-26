@@ -1,6 +1,13 @@
 MIT License
 
-Copyright (c) 2025 Formless Evoker
+The source code within this repository was written by Grayson Dubois as an exercise 
+in following Robert Nystrom's instruction within the book Crafting Interpreters.
+
+The intellectual property of the bytecode interpreter and its implementation
+go to Robert Nystrom. For more details, see his license at:
+https://github.com/munificent/craftinginterpreters/blob/master/LICENSE
+
+Copyright (c) 2025 Grayson Dubois
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
