@@ -55,7 +55,8 @@ static InterpretResult run() {
     case OP_NEGATE: {
       // Negate the top value on the stack.
       // Do this in place to prevent from popping and re-pushing to the stack.
-      *vm.stackTop *= -1;
+      // Also remember that the stack top is one past the last value.
+      *(vm.stackTop - 1) *= -1;
       break;
     }
     case OP_RETURN:
